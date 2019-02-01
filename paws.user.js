@@ -33,6 +33,9 @@ Paws.App = (function () {
         'vpc': {href: '/vpc/home'},
         'cft': {href: '/cloudformation/home'},
         'da': {href: '/lambda/home'},
+        'cdn': {href: '/cloudfront/home'},
+        'ecs': {href: '/ecs/home#/clusters'},
+        'ecr': {href: '/ecr/repositories'},
         // Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
