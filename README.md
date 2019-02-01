@@ -69,6 +69,7 @@ Use the left sidebar navigation menu.
 <table>
   <tr><td>Show shortcuts</td><td>?</td></tr>
   <tr><td>Focus search box</td><td>/</td></tr>
+  <tr><td>Open services menu</td><td>z</td></tr>
 </table>
 
 License

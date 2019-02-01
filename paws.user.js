@@ -45,6 +45,7 @@ Paws.App = (function () {
         'j': {func: ['navbar', 'next']},
         'k': {func: ['navbar', 'prev']},
         'l': {func: ['navbar', 'select']},
+ 	'z': {click: 'nav-servicesMenu'},
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
         '/': {focus: '.gwt-TextBox:first'},
@@ -84,6 +85,11 @@ Paws.App = (function () {
                     self.log('Calling func');
                     var func = value['func'];
                     self[func[0]][func[1]]();
+                };
+            } else if (value['click']) {
+                callback = function() {
+                    self.log('Clicking ' + value['click']);
+                    document.getElementById(value['click']).click();
                 };
             } else {
                 self.log('Invalid callback');
