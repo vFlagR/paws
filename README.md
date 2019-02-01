@@ -43,6 +43,7 @@ Open the default view of a service.
   <tr><td>ECR</td><td>ecr</td></tr>
   <tr><td>API Gateway</td><td>api</td></tr>
   <tr><td>ACM</td><td>acm</td></tr>
+  <tr><td>CloudWatch</td><td>cw</td></tr>
 </table>
 
 ### Pages
