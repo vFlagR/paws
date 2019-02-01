@@ -41,6 +41,8 @@ Open the default view of a service.
   <tr><td>Cloudfront</td><td>cdn</td></tr>
   <tr><td>ECS</td><td>ecs</td></tr>
   <tr><td>ECR</td><td>ecr</td></tr>
+  <tr><td>API Gateway</td><td>api</td></tr>
+  <tr><td>ACM</td><td>acm</td></tr>
 </table>
 
 ### Pages
