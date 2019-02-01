@@ -51,7 +51,7 @@ Paws.App = (function () {
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
         '/': {focus: '.gwt-TextBox:first'},
-        '?': {open: 'https://github.com/tombenner/paws#shortcuts'},
+        '?': {open: 'https://github.com/vflagr/paws#shortcuts'},
         // lambda searchbox ???? WIP
         'lam': {focus: '.inputAndSuggestions.input'}
     };
