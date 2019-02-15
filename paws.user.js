@@ -39,7 +39,9 @@ Paws.App = (function () {
         'api': {href: '/apigateway/home'},
         'acm': {href: '/acm/home'},
         'cw': {href: '/cloudwatch/home'},        
-        // Pages
+	'sns': {href: '/sns/v2/home'}, 
+        'sqs': {href: '/sqs/home'}, 
+	// Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
         'elb': {href: '/ec2/v2/home#LoadBalancers:'},

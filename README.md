@@ -44,6 +44,9 @@ Open the default view of a service.
   <tr><td>API Gateway</td><td>api</td></tr>
   <tr><td>ACM</td><td>acm</td></tr>
   <tr><td>CloudWatch</td><td>cw</td></tr>
+  <tr><td>SNS</td><td>sns</td></tr>
+  <tr><td>SQS</td><td>sqs</td></tr>
+
 </table>
 
 ### Pages
