@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Paws
 // @namespace    http://tombenner.co/
-// @version      0.0.1
+// @version      0.0.5
 // @description  Keyboard shortcuts for the AWS Console
 // @author       Tom Benner
 // @match        https://*.console.aws.amazon.com/*
@@ -41,7 +41,8 @@ Paws.App = (function () {
         'cw': {href: '/cloudwatch/home'},        
 	'sns': {href: '/sns/v2/home'}, 
         'sqs': {href: '/sqs/home'}, 
-	'ses': {href: 'ses/home'},
+	'ses': {href: '/ses/home'},
+
 	// Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
