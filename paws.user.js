@@ -41,6 +41,7 @@ Paws.App = (function () {
         'cw': {href: '/cloudwatch/home'},        
 	'sns': {href: '/sns/v2/home'}, 
         'sqs': {href: '/sqs/home'}, 
+	'ses': {href: 'ses/home'},
 	// Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
